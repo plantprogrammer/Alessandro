@@ -10,6 +10,7 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 a:link {
   text-decoration: none;
+  color: black;
 }
 
 a:visited {
@@ -17,15 +18,41 @@ a:visited {
 }
 
 a:hover {
-  text-decoration: underline;
+  text-decoration: none;
+  color: #007acc;
 }
 
 a:active {
-  text-decoration: underline;
+  text-decoration: none;
 }
-
 
 body
 {
-	font-family: helvetica;
+	font-family: merriweather;
+}
+
+header
+{
+	margin-bottom: 4em;
+}
+
+header h4
+{
+	margin-top: .25em;
+}
+
+header h1
+{
+	margin-bottom: .15em;
+}
+
+h1,h2,h3,h4,h5,h6
+{
+	font-family: lora;
+}
+
+article.page
+{
+	margin-top: 4em;
+	margin-bottom: 4em;
 }
